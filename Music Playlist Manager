@@ -1,0 +1,73 @@
+/*
+    Filename: Music Playlist Manager
+    Text files used by program: playlist.txt
+    Description: AI Powered Project #3
+    Authors: Deyton Comerford-Neal, Isaac Plascencia-Barrigan, Cody Toller
+    Class: CSCI-110
+    Date: 11-14-2024
+ */
+
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
+using namespace std;
+
+// Global variables used to store songs and artists
+vector<string> songTitles;
+vector<string> songArtists;
+
+// Function to add a song to the playlist
+void addSong() {
+}
+
+// Function to display all songs in the playlist
+void displayPlaylist() {
+}
+
+// Function to search for a song in the playlist
+void searchSong() {
+}
+
+// Function to save the playlist to a file
+void savePlaylist() {
+}
+
+// Function to load the playlist from a file
+void loadPlaylist() {
+}
+
+int main() {
+    int select;
+
+    do {
+        cout << "Playlist Manager" << endl;
+        cout << "1. Add Song" << endl;
+        cout << "2. Playlist" << endl;
+        cout << "3. Search Song" << endl;
+        cout << "4. Save Playlist" << endl;
+        cout << "5. Load Playlist" << endl;
+        cout << "0. Exit" << endl;
+        cout << "Enter your choice: ";
+	      cin >> select;
+        cin.ignore();
+
+        if (choice == 1) {
+            addSong();
+        } else if (select == 2) {
+            displayPlaylist();
+        } else if (select == 3) {
+            searchSong();
+        } else if (select == 4) {
+            savePlaylist();
+        } else if (select == 5) {
+            loadPlaylist();
+        } else if (select == 0) {
+            cout << "Goodbye." << endl;
+        } else {
+            cout << "Please try again." << endl;
+        }
+    } while (choice != 0);
+
+    return 0;
+}
