@@ -48,11 +48,11 @@ int main() {
         cout << "4. Save Playlist" << endl;
         cout << "5. Load Playlist" << endl;
         cout << "0. Exit" << endl;
-        cout << "Enter your choice: ";
+        cout << "Make a selection: ";
 		 cin >> select;
         cin.ignore();
 
-        if (choice == 1) {
+        if (select == 1) {
             addSong();
         } else if (select == 2) {
             displayPlaylist();
@@ -67,7 +67,7 @@ int main() {
         } else {
             cout << "Please try again." << endl;
         }
-    } while (choice != 0);
+    } while (select != 0);
 
     return 0;
 }
