@@ -49,7 +49,7 @@ int main() {
         cout << "5. Load Playlist" << endl;
         cout << "0. Exit" << endl;
         cout << "Enter your choice: ";
-				cin >> select;
+		cin >> select;
         cin.ignore();
 
         if (choice == 1) {
