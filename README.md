@@ -1,9 +1,4 @@
-Pseudocode
-
-1.	Define Global Variables:
-	• Create two empty lists, songTitles and songArtists, to store song information.
-
-2.	Define Functions:
+Define Functions:
 
 Function addSong():
 	•	Prompt the user to enter the song title and artist.
@@ -41,22 +36,3 @@ Function loadPlaylist():
 	•	Close the file.
 	•	Print “Playlist loaded from playlist.txt”.
 
-3.	Main Program Loop:
-	•	Repeat until the user chooses to exit:
-	•	Display the menu:
-
-1. Add Song
-2. Playlist
-3. Search Song
-4. Save Playlist
-5. Load Playlist
-0. Exit
-
-	•	Prompt the user to enter a selection.
-	•	If select is 1, call addSong().
-	•	If select is 2, call displayPlaylist().
-	•	If select is 3, call searchSong().
-	•	If select is 4, call savePlaylist().
-	•	If select is 5, call loadPlaylist().
-	•	If select is 0, print “Goodbye.” and exit the loop.
-	•	If select is anything else, print “Please try again.”
